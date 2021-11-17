@@ -22,10 +22,10 @@ export default {
 
   mounted: async function () {
     mapboxgl.accessToken =
-      "pk.eyJ1IjoibWFueWsiLCJhIjoiY2t2dGlvd2drMnZvejJwa2xrOWtzeWs4aCJ9.CivNEj2VLiQNMt1bDIX1Og";
+      "pk.eyJ1IjoidGlubzk3IiwiYSI6ImNrdzNpOWtzMTA3OGkzMW52dGZmbWw1cm0ifQ.FUovyoQJgf2jkCvZqWImvg";
     new mapboxgl.Map({
       container: this.$refs.container, // container ID
-      style: "mapbox://styles/mapbox/streets-v11", // style URL
+      style: "mapbox://styles/tino97/ckw3ifbpz206x14nqk6ranht9", // style URL
       center: [-74.5, 40], // starting position [lng, lat]
       zoom: 9, // starting zoom
     });
